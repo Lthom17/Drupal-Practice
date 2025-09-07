@@ -1,0 +1,41 @@
+{
+  "name": "react_theme",
+  "version": "1.0.0",
+  "main": "js/src/index.jsx",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "build:react": "rollup -c",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-replace": "^6.0.2",
+    "babel-loader": "^9.2.1",
+    "browser-sync": "^3.0.4",
+    "gulp-babel": "^8.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-watch": "^5.0.1",
+    "rollup": "^4.50.1"
+  }
+}

@@ -1,0 +1,4 @@
+react-core:
+  js:
+    assets/js/react.js: { attributes: { type: module } }
+    assets/js/react-dom-client.js: { attributes: { type: module } }

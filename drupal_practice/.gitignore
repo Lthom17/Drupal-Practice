@@ -1,0 +1,15 @@
+# Ignore paths that contain user-generated content.
+.ddev/config.yaml
+.DS_Store
+.ddev
+.idea/*
+docroot/.htaccess
+docroot/config
+docroot/files
+docroot/sites/*/files
+docroot/sites/*/private
+# Ignore examples module
+docroot/modules/contrib/examples
+node_modules
+docroot/drush/sites
+*.phar
