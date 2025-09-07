@@ -1,0 +1,6 @@
+[submodule "drupal_practice/drupal_practice/web/modules/custom"]
+	path = drupal_practice/drupal_practice/web/modules/custom
+	url = git@github.com-personal:Lthom17/discount_wheel.git
+[submodule "drupal_practice/web/modules/custom/discount-wheel"]
+	path = drupal_practice/web/modules/custom/discount-wheel
+	url = git@github.com-personal:Lthom17/discount_wheel.git
